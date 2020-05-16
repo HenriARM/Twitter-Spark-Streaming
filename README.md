@@ -11,22 +11,22 @@ Most often mentioned users by Donald Trump on Twitter
 ## How to run
 
 0. Install python dependencies for all services
-  '''bash
+  ```bash
     pip install -r requirements.txt
-  '''  
+  ```  
 1. Run server
-  '''bash
+  ```bash
     cd server; python spark-server.py
-  '''
+  ```
 2. Run client
-  '''bash
+  ```bash
     cd client; python spark-client.py
-  '''
+  ```
 3. Run dashboard
-  '''bash
+  ```bash
     cd dashboard; 
     npm i;
     python app.py
-  '''
+  ```
 
 How project works (Real-time, mono repo, selector, multiple conenction, another user to stream)
