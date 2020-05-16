@@ -31,8 +31,8 @@ Most often mentioned users by Donald Trump on Twitter
 
 ## How project works
   * It is a monorepository, which consists of 3 services: `Client`, `Server` and `Dashboard` .
-  * `Server` is a I/O multiplexer, which fetches in real-time latest Donal Trump tweets with `Twitter API` and whenever `Client` is a ready for socket communication, sends tweets. (P.S. there could be multiple `Clients`).
+  * `Server` is a I/O multiplexer, which fetches in real-time latest Donal Trump tweets with `Twitter API` and whenever `Client` is ready for socket communication, sends tweets. (P.S. there could be multiple `Clients`).
   * `Client` is a Spark Streaming platform which extracts tweets, transform (find all mentions in text) batch by batch and post top 10 most mentioned users to `Dashboard`.
-  * `Dashboard` is a `Flask` application, which using AJAX gets those results and generates dashboard in real-time using `Chart.js`
+  * `Dashboard` is a `Flask` application, which using `AJAX` gets those results and generates `Chart.js` dashboard.
   
 
