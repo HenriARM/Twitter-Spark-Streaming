@@ -13,7 +13,7 @@ oauthlib==3.1.0
 psutil==5.7.0
 py4j==0.10.7
 PySocks==1.7.1
-pyspark==2.4.5
+pyspark==3.2.2
 pyspark-stubs==2.4.0.post7
 pytils==0.3
 requests==2.23.0
